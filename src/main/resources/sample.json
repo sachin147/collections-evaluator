@@ -1,0 +1,35 @@
+{
+  "operator" : "AND",
+  "conditions": [
+    {
+      "operator" : "OR",
+      "rules": [
+        {
+          "property" : "name",
+          "operator" : "=",
+          "value" : "Sachin"
+        },
+        {
+          "property" : "city",
+          "operator" : "=",
+          "value" : "Mumbai"
+        }
+      ]
+    },
+    {
+      "operator" : "OR",
+      "rules": [
+        {
+          "property" : "age",
+          "operator" : "<",
+          "value" : 30
+        },
+        {
+          "property" : "weight",
+          "operator" : ">",
+          "value" : 60
+        }
+      ]
+    }
+  ]
+}
